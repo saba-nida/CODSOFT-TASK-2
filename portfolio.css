@@ -1,0 +1,271 @@
+.class1{
+    margin:0px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background:#222f3e;
+    /* background: rgb(207, 159, 248); */
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+.class1 i{
+    margin:0 5px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.class1 a{
+    text-decoration: none;
+    color: white;
+    padding:10px 20px;
+
+}
+
+
+a:hover{
+    color:pink;
+}
+    
+
+.class1 img{
+    position: relative;
+    left : 0px;
+       
+}
+
+#profile img{
+    height: 400px;
+    width: 400px;
+    margin-top:100px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 100px;
+    border: white solid 5px;
+    border-radius: 50px    
+}
+
+#profile p{
+    float:right;
+    font-size: 60px;
+    font-style:italic;
+    color: pink;
+    text-align: center;
+    margin: 100px;
+    position:absolute;
+    top: 100px;
+    bottom:100px;
+    left:500px;
+}
+
+#skills{
+    font-size:40px ;
+    margin-left: 50px;
+}
+
+#pic{
+    margin-left: 900px;
+    height:auto;
+    width:500px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+#projects{
+    font-size:40px ;
+    margin-left: 50px;
+    margin-top: 100px;
+
+
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: 30px;
+
+
+}
+
+#project1{
+    
+    border:6px  black;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    margin-left: 50px;
+    margin-top:50px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+#project2{
+ 
+    border:6px  black;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    margin-left:300px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+#project3{
+ 
+    border:6px  black;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    margin-left:300px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+#resume{
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+.description{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+
+}
+.yo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.yo a{
+    border-radius: 10px;
+    border-color: #222f3e solid;
+    text-decoration: none;
+    color: white;
+    background:#222f3e;
+    padding: 10px 20px;
+    margin-top: 60px;
+    letter-spacing: 5px;
+}
+
+.yo a:hover{
+    color: pink;
+}
+
+#sa{
+margin-left: 50px;
+margin-bottom: 50px;
+   margin-top: 50px;
+    font-size: 50px;
+}
+
+.fa-twitter{
+    color: aqua;
+}
+
+.contact p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+/* .footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+} */
+
+/* body{
+    background:linear-gradient(to right,white,skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+} */
+
+body{
+    background-image: url("og9.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+  
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #222f3e;
+    color:white;
+    display: flex;
+
+}
+
+.footer div {
+    text-align: center;
+}
+
+.second{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.first a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.first a:hover{
+    color: pink;
+}
+ 
+#bottom{
+   
+    color: white;
+    margin-top:0px;
+    text-align: center;
+    background-color: #222f3e
+
+}
+
+.third i{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
